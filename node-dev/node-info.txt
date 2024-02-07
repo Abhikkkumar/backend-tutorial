@@ -1,0 +1,11 @@
+1. "npm run start" or "npm start" -> used to run "start" script present in package.json
+2. In this project, "npm run dev" to run 'dev' script in package.json
+
+3.
+"express": "^4.18.2" -> 4 show major version, 18 show minor version, 2 show patch version
+^ sign in package dependency mean minor updates are acceptable.
+~ sign mean patch update are acceptable.
+* sign means even major updates are acceptable.
+
+4. "npm outdated" to check if any dependency in our package is outdated or not
+5. "npm update" to update a dependency
